@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=EoUwhgxgLgIg8gWQHQCcQDsAmIUAoBQABMScQDwCuANgHxGkNlUCWNAKgBYVkD0LdDRvwBiKZr371B5fgGUwUCaynTe1GgBoVpTAHsIFALYYoSAOYgoAUSohj6KACEAngElMuAEQpduqJ4BKbUIAgG4gA&debug=false&forceAllTransforms=false&modules=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.22.5&externalPlugins=&assumptions=%7B%7D"
+      crossorigin
+    ></script>
+    <title>React ⚛️</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <h1>Getting Started with React</h1>
+    <script type="text/babel">
+      let ul = React.createElement(
+          "ul",
+          { style: { color: "blue"} },
+          React.createElement("li", null, "Mon"),
+          React.createElement("li", null, "Tue"),
+          React.createElement("li", null, "Wed")
+        );
+      ReactDOM.render(
+        <ul>
+          <li>Thu</li>
+          <li>Fri</li>
+          <li>Sat</li>
+          </ul>,
+        document.getElementById("root")
+      );
+      </script>
+  </body>
+</html>
