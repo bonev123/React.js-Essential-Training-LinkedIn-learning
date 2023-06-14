@@ -5,7 +5,7 @@ The full course is available at LinkedIn Learning
 
 ## Course Description 
 
-Among all other JavaScript libraries, React.js stands out. It relies on reusable components, not templates, for UI development, allowing developers to render views where data changes over time. React applications are more scalable and more maintainable, making developers more efficient and users more satisfied. In this course, Eve Porcello introduces the basics of the React library using the most modern syntax and best practices for creating React components. Along the way, learn how to set up Chrome tools for React; create new components; work with the built-in Hooks in React; use the Create React App to run tests, and more. By the end of the course, you'll be armed with the essentials of React.js and better prepared to build your own browser-based projects.
+Among all other JavaScript libraries, React.js stands out. It relies on reusable components, not templates, for UI development, allowing developers to render views where data changes over time. React applications are more scalable and more maintainable, making developers more efficient and users more satisfied. In this course,the basics of the React library are introduced using the most modern syntax and best practices for creating React components. Along the way, learn how to set up Chrome tools for React; create new components; work with the built-in Hooks in React; use the Create React App to run tests, and more. By the end of the course, you'll be armed with the essentials of React.js and better prepared to build your own browser-based projects.
 
 Topics Include:
 1. Creating React Elements
